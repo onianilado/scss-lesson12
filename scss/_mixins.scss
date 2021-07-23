@@ -1,0 +1,10 @@
+@mixin d-flex ($display, $justify) {
+    display: $display;
+    justify-content: $justify;
+}
+@mixin center($display,$justify, $align, $direction) {
+    display: $display;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+}

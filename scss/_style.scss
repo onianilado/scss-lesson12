@@ -1,0 +1,34 @@
+.section-bg{
+    background-color: $color02;
+    .wraper{
+       @include d-flex(flex, space-between);
+        .lft{
+            @include center(flex,center, center, column);
+            width: $size01;
+            height: $size01;
+            background-color: $color01;
+            .text1{
+                font-size: $size02;
+                font-family: $font01;
+            }
+            .title1{
+                font-size: $size03;
+                font-family: $font02;
+            }
+        }
+        .rght{
+            @include center(flex,center, center, column);
+            width: $size01;
+            height: $size01;
+            background-color: $color01;
+            p {
+                font-size: $size02;
+                font-family: $font01;
+            }
+            h2 {
+                font-size: $size03;
+                font-family: $font02;
+            }
+        }
+    }
+}
